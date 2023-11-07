@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema CLub | Dewi's Review</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+        *, html, body {
+    margin: 0%;
+    height: 100%;
+}
+
+        body {
+            background-image: url(pexels-tima-miroshnichenko-7991141.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 0%;
+        }
+
+.fContainer {
+    display: flex;
+    width: 100%;
+    height: 0%;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 0%;
+    padding: 20px;
+    background-blend-mode: overlay;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.firstname {
+    color:white;
+    font-weight:bold;
+}
+
+.firstname>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.lastname>a {
+    color: rgb(202, 0, 0);
+    text-decoration: none;
+}
+
+.lastname {
+    color:rgb(202, 0, 0);
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 18px;
+    color:white
+}
+
+.navigation>li>a:hover {
+    color:rgb(202, 0, 0);
+    transition: all .3s ease-in-out
+}
+
+/* .navigation>li>a>img {
+    width: 30px;
+    height: 30px;
+}
+
+.navigation>li>a>img:hover {
+    width: 35px;
+    height: 35px;
+    transition: all .3s ease-in-out;
+} */
+
+.heading {
+    color: white;
+    font-family: montserrat;
+    font-size: xx-large;
+    padding-left: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.section {
+    position: relative;
+    justify-content: space-between;
+    top: 320px;
+    display: flex;
+    padding: 5px;
+    list-style: none;
+}
+
+.first {
+    margin: 50px;
+}
+
+.first>a>img {
+    height: 600px;
+}
+
+.third {
+    margin: 50px;
+}
+
+.third>a>img {
+    height: 600px;
+}
+
+.paragraf {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 390px;
+    margin-left: 560px;
+    line-height: 50px;
+}
+
+.pbantu {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 530px;
+    margin-left: 560px;
+    font-weight: lighter;
+}
+
+.paragraf2 {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 390px;
+    margin-right: 500px;
+    line-height: 50px;
+    text-align: end;
+}
+
+.pbantu2 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 530px;
+    margin-right: 500px;
+    font-weight: lighter;
+    text-align: end;
+}
+
+.section3 {
+    position: relative;
+    justify-content: space-between;
+    top: 1100px;
+    display: flex;
+    padding: 5px;
+    list-style: none;
+}
+
+.paragraf3 {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 1170px;
+    line-height: 50px;
+    margin-left: 560px;
+}
+
+.pbantu3 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 1320px;
+    margin-left: 560px;
+    font-weight: lighter;
+}
+
+.paragraf4 {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 1170px;
+    margin-right: 500px;
+    line-height: 50px;
+    text-align: end;
+}
+
+.pbantu4 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 1320px;
+    margin-right: 500px;
+    font-weight: lighter;
+    text-align: end;
+}
+
+.rating {
+    position: relative;
+    top: 495px;
+    margin-left: 560px;
+}
+
+.checked {
+    color: red;
+}
+
+.rating2 {
+    position: relative;
+    top: 1275px;
+    margin-left: 560px;
+}
+
+.rating3 {
+    position: relative;
+    top: 495px;
+    margin-left: 1310px;
+}
+
+.rating4 {
+    position: relative;
+    top: 1275px;
+    margin-left: 1310px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="firstname"><a href="index.html">CINEMA</a></div>
+                <div class="lastname"><a href="index.html">CLUB</a></div>
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="rizki.html">Rizki's Rec</a></li>
+                <li><a href="gita.html">Gita's Rec</a></li>
+                <!-- <li><a href="https://sman1sleman.sch.id/"> <img src="/Kelompok 2 Web Movie/logo sma.png" alt="..."/></a></li> -->
+            </ul>
+        </nav>
+    </div>
+
+    <div class="heading">
+        <h1>Dewi's Film<br> Recommendation</h1>
+    </div>
+    <div>
+        <ul class="section">
+            <li class="first"><a href="https://id.wikipedia.org/wiki/Moving_(seri_televisi_Korea_Selatan)"><img src="moving.png"></a></li>
+            <li class="third"><a href="https://id.wikipedia.org/wiki/The_Glory_(seri_televisi)"><img src="the glory.png"></a></li>
+        </ul>
+    </div>
+
+    <p class="paragraf"><u>01</u><br>Moving</p>
+        <p class="pbantu">Genre :  Drama, Action,<br> Fantasy.<br><br>2023<br><br>
+        Sinopsis:<br>Kehidupan 3 remaja yang<br> menyembunyikan kekuatan <br>super yang mereka miliki<br>
+        serta orang tua mereka<br>telah hidup dengan rahasia<br>menyakitkan menghadapi<br>bahaya selama<br> beberapa <br>generasi.
+    </p>
+
+    <p class="paragraf2"><u>02</u><br>The Glory</p>
+        <p class="pbantu2">Genre :  Drama, Miytery,<br> Revenge tragedy.<br><br>2022<br><br>
+        Sinopsis:<br>kisah balas dendam yang <br> menyedihkan dimulai dengan<br>seorang siswa sekolah<br>
+        menengah yang bermimpi menjadi<br>arsitek. Namun, dia harus putus<br>sekolah setelah menderita <br>kekerasan sekolah yang brutal. <br>Bertahun-tahun kemudian <br>dia habiskan untuk<br> membalas dendam itu.
+    </p>
+
+    <div>
+        <ul class="section3">
+            <li class="first"><a href="https://id.wikipedia.org/wiki/Elemental:_Forces_of_Nature"><img src="elemental.png"></a></li>
+            <li class="third"><a href="https://id.wikipedia.org/wiki/Onward"><img src="onward.png"></a></li>
+        </ul>
+    </div>
+
+    <p class="paragraf3"><u>03</u><br>Elemental</p>
+        <p class="pbantu3">Genre :  Animation, Romance,<br>Comedy, Adventure, Family Film.<br><br>2023<br><br>
+        Sinopsis:<br>Dua karakter berbeda, Ember <br> elemen api dan Wade elemen<br>air. Layaknya api, Ember memiliki <br>sifat membara, sedangkan Wade<br>memiliki sifat tenang layaknya <br> air. Walaupun berbeda, keduanya<br>
+        saling jatuh cinta dan berusaha<br>mencari kesamaan satu sama lain.
+    </p>
+
+    <p class="paragraf4"><u>04</u><br>Onward</p>
+        <p class="pbantu4">Genre :  Animation, Comedy<br> Fantasy, Friendship.<br><br>2020<br><br>
+        Sinopsis:<br>Alkisah di dunia fantasi<br>hiduplah makhluk gaib tinggal<br> di sana. Dua peri remaja, Ian<br> Lightfoot serta Barley Lightfoot<br>memulai sebuah pencarian ke<br>tempat=tempat magis untuk<br>menemukan sebuah jawaban.
+    </p>
+
+    <div class="rating">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+
+    <div class="rating2">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+
+    <div class="rating3">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+
+    <div class="rating4">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+</body>
+</html>

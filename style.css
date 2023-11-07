@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+body{
+    min-height: 100vh;
+    background: url(pexels-tima-miroshnichenko-7991402.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 90px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.logo2 {
+    position: relative;
+    left: -608px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(202, 0, 0);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.navbar>a:hover {
+    color: rgb(202, 0, 0);
+    transition: all .3s ease-in-out;
+}
+
+.judul {
+    position: relative;
+    padding: 200px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+.tambahtambah {
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ceritanya {
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 170px;
+}
+
+h3 {
+    position: relative;
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+.nyerito {
+    color: white;
+    line-height: 1.3em;
+    letter-spacing: 0.5px;
+}

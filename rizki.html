@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema CLub | Rizki's Review</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+        *, html, body {
+    margin: 0%;
+    height: 100%;
+}
+
+        body {
+            background-image: url(pexels-tima-miroshnichenko-7991297.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 0%;
+        }
+
+.fContainer {
+    display: flex;
+    width: 100%;
+    height: 0%;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 0%;
+    padding: 20px;
+    background-blend-mode: overlay;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.firstname {
+    color:white;
+    font-weight:bold;
+}
+
+.firstname>a {
+    color: white;
+    text-decoration: none;
+}
+
+.lastname>a {
+    color: rgb(202, 0, 0);
+    text-decoration: none;
+}
+
+.lastname {
+    color:rgb(202, 0, 0);
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 18px;
+    color:white
+}
+
+.navigation>li>a:hover {
+    color:rgb(202, 0, 0);
+    transition: all .3s ease-in-out
+}
+
+.navigation>li>a>img {
+    width: 30px;
+    height: 30px;
+}
+
+.navigation>li>a>img:hover {
+    width: 35px;
+    height: 35px;
+    transition: all .3s ease-in-out;
+}
+
+.heading {
+    color: white;
+    font-family: montserrat;
+    font-size: xx-large;
+    padding-left: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.section {
+    position: relative;
+    justify-content: space-between;
+    top: 320px;
+    display: flex;
+    padding: 5px;
+    list-style: none;
+}
+
+.first {
+    margin: 50px;
+}
+
+.first>a>img {
+    height: 600px;
+
+}
+
+.third {
+    margin: 50px;
+}
+
+.third>a>img {
+    height: 600px;
+}
+
+.paragraf {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 390px;
+    margin-left: 530px;
+    line-height: 50px;
+}
+
+.pbantu {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 530px;
+    margin-left: 530px;
+    font-weight: lighter;
+}
+
+.paragraf2 {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 390px;
+    margin-right: 500px;
+    line-height: 50px;
+    text-align: end;
+}
+
+.pbantu2 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 530px;
+    margin-right: 500px;
+    font-weight: lighter;
+    text-align: end;
+}
+
+.section3 {
+    position: relative;
+    justify-content: space-between;
+    top: 1100px;
+    display: flex;
+    padding: 5px;
+    list-style: none;
+}
+
+.paragraf3 {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 1170px;
+    margin-left: 530px;
+    line-height: 50px;
+}
+
+.pbantu3 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 1320px;
+    margin-left: 530px;
+    font-weight: lighter;
+}
+
+.paragraf4 {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'montserrat';
+    top: 1170px;
+    margin-right: 500px;
+    line-height: 50px;
+    text-align: end;
+}
+
+.pbantu4 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat';
+    top: 1320px;
+    margin-right: 500px;
+    font-weight: lighter;
+    text-align: end;
+}
+
+.rating {
+    position: relative;
+    top: 495px;
+    margin-left: 530px;
+}
+
+.checked {
+    color: red;
+}
+
+.rating2 {
+    position: relative;
+    top: 1275px;
+    margin-left: 530px;
+}
+
+.rating3 {
+    position: relative;
+    top: 495px;
+    margin-left: 1310px;
+}
+
+.rating4 {
+    position: relative;
+    top: 1275px;
+    margin-left: 1310px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="firstname"><a href="index.html">CINEMA</a></div>
+                <div class="lastname"><a href="index.html">CLUB</a></div>
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="dewi.html">Dewi's Rec</a></li>
+                <li><a href="gita.html">Gita's Rec</a></li>
+                <!-- <li><a href="https://sman1sleman.sch.id/"> <img src="/Kelompok 2 Web Movie/logo sma.png" alt="..."/></a></li> -->
+            </ul>
+        </nav>
+    </div>
+
+    <div class="heading">
+        <h1>Rizki's Film<br> Recommendation</h1>
+    </div>
+    <div>
+        <ul class="section">
+            <li class="first"><a href="https://id.wikipedia.org/wiki/Interstellar"><img src="interstellar.png"></a></li>
+            <li class="third"><a href="https://id.wikipedia.org/wiki/Hacksaw_Ridge"><img src="hacksaw ridge.png"></a></li>
+        </ul>
+    </div>
+
+    <p class="paragraf"><u>01</u><br>Interstellar</p>
+        <p class="pbantu">Genre :  Science Fiction, Drama,<br> Adventure, Mystery, Documentary.<br><br>2014<br><br>
+        Sinopsis:<br>Film Interstellar mengambil latar<br> peristiwa di tahun 2060-an dengan<br> menggambarkan bumi sebagai tempat<br> yang tak layak huni. Terdapat<br> badai debu hingga wabah penyakit<br> yang menerpa bumi dan
+        membuat<br> banyak makhluk hidup punah<br> serta tanaman terinfeksi penyakit<br> sehingga tidak dapat<br> dikonsumsi.
+    </p>
+
+    <p class="paragraf2"><u>02</u><br>Hacksaw Ridge</p>
+        <p class="pbantu2">Genre :  War, Documentary,<br> Drama, History, Comedy.<br><br>2016<br><br>
+        Sinopsis:<br>Diangkat dari kisah nyata<br> penerima Medali Kehormatan.<br> Desmond Doss mendaftar<br> sebagai petugas medis di tentara<br>
+         AS pada masa Perang Dunia II,<br> namun ia menolak untuk<br> memegang senjata <br>ataupun membunuh.
+    </p>
+
+    <div>
+        <ul class="section3">
+            <li class="first"><a href="https://id.wikipedia.org/wiki/Kaze_Tachinu"><img src="the wind rises.png"></a></li>
+            <li class="third"><a href="https://id.wikipedia.org/wiki/Turning_Red"><img src="a silet voice.png"></a></li>
+        </ul>
+    </div>
+
+    <p class="paragraf3"><u>03</u><br>The Wind Rises</p>
+        <p class="pbantu3">Genre :  Animation,<br> Romance, War, History.<br><br>2013<br><br>
+        Sinopsis:<br>Film ini menceritakan tentang Jiro<br> Horikoshi, seorang anak yang punya<br> mimpi untuk menjadi seorang pilot<br> 
+        pesawat tempur. Sayangnya, mimpi<br> itu terpaksa harus dikuburnya karena<br> penglihatannya Jiro mengalami<br> gangguan. Suatu hari dalam mimpi<br> Jiro, ia bertemu dengan dengan<br> desainer pesawat terbang asal Italia.
+    </p>
+
+    <p class="paragraf4"><u>04</u><br>A Silent Voice</p>
+        <p class="pbantu4">Genre :  Animation, Psikology,<br> Romace, Teenager, friendship.<br><br>2016<br><br>
+        Sinopsis:<br>A Silent Voice bercerita<br> tentang siswi SMA tuli bernama<br> Shoko Nishimiya yang mencoba<br> untuk beradaptasi dengan teman-<br>temannya dan hidup selayaknya<br>
+        siswi SMA lainnya. Sementara<br> itu, Shoya Ishida adalah seorang<br> siswa SMA cuek yang senang <br>mengganggu teman-temannya.
+    </p>
+
+    <div class="rating">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+
+    <div class="rating2">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+    </div>
+
+    <div class="rating3">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+
+    <div class="rating4">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+    </div>
+</body>
+</html>
